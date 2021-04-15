@@ -1,3 +1,3 @@
-# Tic-tac-toe-game
+# Tic-tac-toe-game in JS
 
-https://rysbekkyzy.github.io/Tic-tac-toe-game/
+to see the deployment follow this link https://rysbekkyzy.github.io/Tic-tac-toe-game/
