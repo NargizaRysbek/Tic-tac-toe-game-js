@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://miro.medium.com/max/300/1*kdY26OPGZbeNKJs60q0zUg.png">
+    <title>Tic-tac-toe</title>
+</head>
+
+<body>
+
+    <div class="root">
+        <div class="currentPlayer">
+            <span>Сейчас ходит <span id="currentPl">X</span></span>
+        </div>
+        <div class="gameResult">
+            <span>Результат игры: </span>
+            <br>
+            <span id="whoWins"></span>
+        </div>
+        <div class="gameHistory">История игр:
+            <div id="roundHistory"></div><br>
+        </div>
+        <div id="area">4</div>
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>Победы Х</td>
+                    <td id="sX">
+                        <span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Победы О</td>
+                    <td id="sO">
+                        <span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td id="sD">
+                        <span>0</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
